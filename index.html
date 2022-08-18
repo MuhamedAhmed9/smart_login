@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- start login form -->
+    <div class="login-container container-fluid">
+      <form class="login-form" action="">
+        <div class="avatar">
+          <img src="imgs/avatar.webp" alt="Avatar" />
+        </div>
+        <h2 class="mt-4">Login</h2>
+        <div class="form-group px-5 mb-3">
+          <label class="text-white fw-bold fs-5" for="email">Email :</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-group px-5">
+          <label class="text-white fw-bold fs-5" for="password"
+            >Password :</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="submit-btn-container text-center py-4">
+          <button
+            id="loginBtn"
+            class="btn btn-primary px-5 py-2 mb-3"
+            type="submit"
+          >
+            Login
+          </button>
+          <p class="text-white">
+            you don't have an account ? <a href="signup.html">Sign Up</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <!-- end login form -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
